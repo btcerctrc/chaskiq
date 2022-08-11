@@ -1,0 +1,71 @@
+
+zh-CN:
+  messenger:
+    runon: '在线客服由Chaskiq提供'
+    show_more: 更多
+    conversation_block:
+      choosen: '您的回复 <strong>%{field}</strong>'
+    continue_conversation: '继续对话'
+    start_conversation: '开启对话'
+    view_all_conversations: '查看所有对话'
+    see_previous: '查看之前'
+    search_article_title: "查看我们的文档库"
+    search_articles: '查找文档'
+    latest_articles: '最新文档'
+    reply_above: '在上面回复'
+    create_new_conversation: '创建新的对话'
+    you: '您'
+    not_seen: '未读'
+    by: 'By'
+    dismiss: '关闭'
+    submit: '提交'
+    article_meta: '<strong>%{name}</strong>发表于<time>%{date}</time>'
+    enter_your: '输入您的 %{field}'
+    closed_conversation: '此对话已结束'
+
+    editor:
+      placeholder: '发送消息...'
+    conversations:
+      title: '对话'
+      events:
+        assigned: '%{name} 被指定加入此对话'
+      message_blocks:
+        ask_option: '正在等待您的回复'
+        data_retrieval: '正在等待您的答复'
+        app_package_wait_reply: '正在等待您的答复'
+        app_package_non_wait: '给您发送内容'
+
+    reply_time:
+      auto: '我们的团队会尽快回复您'
+      minutes: '我们的团队会在几分钟之内回复您'
+      hours: '团队通常在几小时内答复'
+      1day: '团队通常在24小时内答复'
+
+    is_typing: '%{name}正在输入'
+    availability:
+      aprox: "我们会在大约%{time}小时内给您答复"
+      tomorrow: "我们明天答复"
+      days: "我们会在%{val}天后答复"
+      next_week: "我们下周答复"
+      back_from: "我们会在%{hours}小时后上线"
+      tomorrow_from: "我们明天%{hours}点后上线"
+    tours:
+      done: '完成!'
+    invalid: '%{name}输入有误'
+    gdpr_title: '数据保护'
+    gdpr_ok: '接受'
+    gdpr_nok: '以后再说'
+    gdpr: "<p>
+        Hi there! we at %{name} love to talk with you.
+        Under the EU General Data Protection Regulation, we need your approval for our use of personal information
+        (e.g your name and email address) you may provide as we communicate:
+      </p>
+      <p>(1) We'll store your personal information so that we can pick up the conversation if  we talk later.</p>
+      <p>(2) We may send you email to follow up on our discussion here.</p>
+      <p>(3) We may send you emails about %{name} upcoming service and promotions.</p>
+
+      <p>is this okay with you?</p>
+    "
+      
+
+

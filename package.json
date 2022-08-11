@@ -81,6 +81,7 @@
     "url-pattern": "^1.0.3"
   },
   "devDependencies": {
+    "styled-components": "^4.3.2",
     "@atomico/rollup-plugin-sizes": "^1.1.4",
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.16.10",
@@ -150,7 +151,7 @@
   "browser": {
     "path": "path-browserify"
   },
-  "resolutions": {
+  "peerDependencies": {
     "styled-components": "^4.3.2"
   },
   "scripts": {

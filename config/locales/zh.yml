@@ -98,12 +98,12 @@ zh-CN:
     status_paused: 已暂停
     guides: Chaskiq 指南
   navigator:
-    dashboard: 仪表板
+    dashboard: 后台总览
     platform: 工作台
     conversations: 会话
     campaigns: 营销活动 Campaigns
     routing_bots: Routing Bots
-    help_center: Help Center
+    help_center: 帮助中心
     settings: 设置
     childs:
       conversations: 会话
@@ -128,7 +128,7 @@ zh-CN:
       api_access: API Access
       billing: 账单
     user_menu:
-      create_app: Create New App
+      create_app: 创建新的应用
       create_app_description: 创建您公司的 Chaskiq 应用
       signout: Sign Out
       title: User Menu
@@ -185,7 +185,7 @@ zh-CN:
       hint: This is the rule name
       select_agent: Select Agent
   conversation:
-    with: 与“%”对话。
+    with: 对话中
     tag_modal_title: Manage conversation tags
     actions:
       priorize: Priorize Conversation
@@ -194,7 +194,7 @@ zh-CN:
       reopen: 重新打开
       start_call: Start Videocall
       end_call: 结束通话
-      assign_agent: 分配代理
+      assign_agent: 分配客服
       tag_conversation: Tag Conversation
     messages:
       seen: 已查看

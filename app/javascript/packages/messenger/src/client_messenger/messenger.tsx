@@ -300,7 +300,7 @@ class Messenger extends Component<MessengerProps, MessengerState> {
   }
 
   dispatchEvent(key, data = {}) {
-    const event = new Event(key, data);
+    const event = new CustomEvent(key, data);
     document.dispatchEvent(event);
   }
 
@@ -407,21 +407,21 @@ class Messenger extends Component<MessengerProps, MessengerState> {
     window.history.pushState = ((f) =>
       function pushState() {
         var ret = f.apply(this, arguments);
-        window.dispatchEvent(new Event('pushState'));
-        window.dispatchEvent(new Event('locationchange'));
+        window.dispatchEvent(new CustomEvent('pushState'));
+        window.dispatchEvent(new CustomEvent('locationchange'));
         return ret;
       })(window.history.pushState);
 
     window.history.replaceState = ((f) =>
       function replaceState() {
         var ret = f.apply(this, arguments);
-        window.dispatchEvent(new Event('replaceState'));
-        window.dispatchEvent(new Event('locationchange'));
+        window.dispatchEvent(new CustomEvent('replaceState'));
+        window.dispatchEvent(new CustomEvent('locationchange'));
         return ret;
       })(window.history.replaceState);
 
     window.addEventListener('popstate', () => {
-      window.dispatchEvent(new Event('locationchange'));
+      window.dispatchEvent(new CustomEvent('locationchange'));
     });
 
     window.addEventListener('locationchange', () => {

@@ -17,8 +17,8 @@ zh-CN:
     not_found: 您要查找的页面不存在。
     get_snippet: 获取代码片段
     submit: 提交
-    confirm_deletion: Confirm deletion?
-    confirm_deletion_ready: Are you ready to delete?
+    confirm_deletion: 确认删除?
+    confirm_deletion_ready: 确定删除?
     next: 下一个
     prev: 上一个
     showing: 显示中
@@ -28,10 +28,10 @@ zh-CN:
     tz_hint: 您的浏览器时区是 <b className="text-bold">%{timezone}</b>
     send: 发送
     actions: 操作
-    your_apps: Your Apps
-    upload_field: Upload %{field}
+    your_apps: 您的应用
+    upload_field: 上传 %{field}
     choose_color: 选择颜色
-    image: Image
+    image: 图片
     langs:
       en: 英文
       es: 西班牙语
@@ -40,58 +40,58 @@ zh-CN:
       ca: 加泰罗尼亚语
       zh-CN: 中文
     redirecting: 重定向中
-    choose_language: Choose Language
+    choose_language: 选择语言
     select_language: 选择语言
     send_on_enter: 回车发布
-    away_mode: Away Mode
-    toggle_light_mode: Toggle Light Mode
-    toggle_dark_mode: Toggle Dark Mode
-    leads: 线索
+    away_mode: 离开模式
+    toggle_light_mode: 切换浅色主题
+    toggle_dark_mode: 切换深色主题
+    leads: 意向
     visitors: 访客
     users: 用户
-    type_message: Type your message
+    type_message: 输入消息
     search_conversations: 在对话中搜索
     days: 天后
-    minutes: Minutes
-    visit: Visit
-    done: Done
+    minutes: 分
+    visit: 浏览
+    done: 完成
   status_messages:
     error: '错误'
     success: '成功'
     updated_success: 更新成功。
     updated_error: 更新时出错
     created_success: 创建成功
-    created_error: 创建时出错 ！
+    created_error: 创建时出错！
     deleted_success: 成功删除
     deleted_error: 删除时出错
     reordered_error: 重新排序时出错
     reordered_success: 成功重排顺序
   error_view:
-    title: Woops! Something went wrong.
+    title: 囧! 出错了.
     subtitle: 很不幸
-    exp: Try refreshing the page
-    cta: Try to go home
+    exp: 尝试刷新页面
+    cta: 回到主页
   home:
     welcome: 欢迎来到
     welcome_site: Chaskiq
     tagline: 找到您当前的应用程序
-    create_new: Create New App
-    choose_lang: Choose Language
-    edit_profile: Edit Profile
-    edit_credentials: Edit User Credentials
-    go_to_doc: Go To Documentation
+    create_new: 创建新的应用
+    choose_lang: 选择语言
+    edit_profile: 编辑个人资料
+    edit_credentials: 修改密码
+    go_to_doc: 查看文档
   dashboard:
-    hey: "👋 Hey!, 你正在查看 <strong>%{name} 的</strong> 仪表板！ <br /> 为网页设置获取安装代码 <br />"
-    response_avg: Average Response Time
-    new_conversations: New Conversations
+    hey: "👋 您好!, 您正在查看 <strong>%{name}的</strong>主页！ <br /> 为WEB设置获取安装代码 <br />"
+    response_avg: 平均回复时间
+    new_conversations: 新对话
     resolutions: 解决方案
     incoming_messages: 收到的消息
-    visit_activity: Visit Activity
-    users_browser: Users Browser
+    visit_activity: 查看活动记录
+    users_browser: 用户浏览器
     lead_os: Lead OS
-    user_os: User OS
+    user_os: 用户OS
     mac_os: Mac OS
-    user_country: User Country
+    user_country: 用户国家
     snippet: 放置以下脚本到您的 html <body> 标签的末端
     status: 在线聊天状态
     status_running: 运行中
@@ -111,43 +111,43 @@ zh-CN:
       mailing_campaigns: 邮件营销活动
       in_app_messages: 应用内消息
       banners: 横幅
-      guided_tours: Guided Tours
-      for_leads: 为线索客户
+      guided_tours: 指引流程
+      for_leads: 为意向客户
       for_users: 为用户
       bot_settings: Bot任务
       outbound: Outbound
-      new_conversations: New Conversations
+      new_conversations: 新对话
       articles: 文章
       collections: 文档集
       article_settings: 设置
       app_settings: App 设置
       team: 团队
       messenger_settings: Messenger 设置
-      integrations: 集成 Integrations
+      integrations: 第三方集成
       webhooks: Webhooks
       api_access: API Access
       billing: 账单
     user_menu:
       create_app: 创建新的应用
       create_app_description: 创建您公司的 Chaskiq 应用
-      signout: Sign Out
-      title: User Menu
+      signout: 登出
+      title: 用户菜单
   profile:
-    no_name: No name
-    name: Full name
-    area_of_expertise: Area of expertise
-    specialization: Specialization
-    phone_number: Phone number
-    address: Address
-    availability: 可用性
+    no_name: 无
+    name: 姓名
+    area_of_expertise: 专业领域
+    specialization: 特长
+    phone_number: 电话号码
+    address: 地址
+    availability: 在线时间
   login:
     title: 连接到您的账户
     email: 您的电子邮箱
     password: 您的密码
     remember_me: 记住我
-    forgot_password: Forgot your password?
-    sign_in: 连接
-    continue_with: 继续用
+    forgot_password: 忘记密码?
+    sign_in: 登录
+    continue_with: 继续
   invitation:
     title: 创建您的账户
     password: 请输入密码
@@ -160,7 +160,7 @@ zh-CN:
     menu:
       conversations: 会话
       all: 全部对话
-      assignment_rules: 代理路由规则
+      assignment_rules: 客服分配规则
       tags: 标签
       unassigned: 未分配
     states:
@@ -177,41 +177,41 @@ zh-CN:
       title: 没有对话
       text: 选择侧边的对话
     app_package_panel:
-      title: Send App Package
-      send_app: Send App
+      title: 发送App包
+      send_app: 发送 App
       preview: 预览
     assignment_rules:
       title: 标题
-      hint: This is the rule name
-      select_agent: Select Agent
+      hint: 规则名称
+      select_agent: 选择客服
   conversation:
     with: 对话中
-    tag_modal_title: Manage conversation tags
+    tag_modal_title: 管理对话标签
     actions:
-      priorize: Priorize Conversation
-      remove_priority: Remove Priority
+      priorize: 优先对话
+      remove_priority: 取消优先
       close: 关闭
       reopen: 重新打开
-      start_call: Start Videocall
+      start_call: 开启视频通话
       end_call: 结束通话
       assign_agent: 分配客服
-      tag_conversation: Tag Conversation
+      tag_conversation: 标记对话
     messages:
       seen: 已查看
       not_seen: 未查看
       note: 私有备注
       reply: 回复
     sidebar:
-      customize: Customize
+      customize: 定制
       show_profile: 显示个人资料
       location: 定位
       browser: 用户浏览器
       latest_user_visible_comment_at: 最新评论
       created_at: 创建于：
       assignee: 指定人
-      first_agent_reply: 第一个代理回复
+      first_agent_reply: 第一个客服回复
       app_inserter:
-        title: Add apps to inbox sidebar
+        title: 将应用加入收件箱侧栏
         add_app: 添加应用
     editor:
       panels:
@@ -223,7 +223,7 @@ zh-CN:
           choose_another: 选择另一个
         quick_reply:
           title: 快速回复
-          confirm: Confirm send %{title}?
+          confirm: 确认回复 %{title}?
           confirm_msg: 此回复将在用户当前对话中发送。
           empty: 没有可用的快速回复
           choose_another: 选择另一个
@@ -239,7 +239,7 @@ zh-CN:
     remove_success: 已移除活动
     remove_hint: 我们将销毁任何内容和相关数据
     delete_campaign: 删除营销活动 %{name}
-    create_new: Create New Campaign
+    create_new: 创建新的营销活动
     empty:
       title: 未找到任何活动
     mailing: 邮件营销活动
@@ -263,8 +263,8 @@ zh-CN:
     state:
       enabled: 启用
       disabled: 关闭
-      send: sent
-      delivering: delivering
+      send: 已发送
+      delivering: 发送中
     tabs:
       stats: 统计
       settings: 设置
@@ -301,15 +301,15 @@ zh-CN:
       description_users: "平台注册用户"
     state_filters:
       enabled_title: 已启用
-      enabled_description: Enabled bot tasks
+      enabled_description: 已启用的机器人任务
       disabled_title: 已停用
       disabled_description: 已停用的机器人任务
     title: Bot任务
     reply_soon: 您好， %{name} 会尽快回复。
-    reply_agent: 您将从我们的代理人中获得回复
+    reply_agent: 我们的客服将回复您
     email_support: 您可以发送电子邮件到 %{email} 以获得支持
     outbound: '🏓 出站'
-    new_conversations: '👋 New Conversations'
+    new_conversations: '👋 新对话'
     new_conversations_notice: 这是用户在开始新对话时会看到的
     options:
       add_message: 添加消息泡
@@ -336,17 +336,17 @@ zh-CN:
       placeholder: 输入邮箱地址
       ack: 谢谢。
     support:
-      ask: Are you an existing %{name} customer?
+      ask: 您已经是 %{name} 的客户吗?
       options:
         op1: 是的，我是客户
         op2: 不，我还不是你们的客户
       reply:
         op1: 欢迎回来！
-        op2: 好的，让我们知道您是否需要某些帮助，代理将尽快回复
+        op2: 好的，让我们知道您是否需要某些帮助，客服将尽快回复
     settings:
       leads:
         tab: 为潜在客户
-        start_conversation: 当线索开始对话
+        start_conversation: 当意向客户开始对话
         delay: 在办公时间触发任务机器人之前请留出2分钟的延迟
         share_time: 分享您通常的回复时间
         route: 引导到现有的客户支持
@@ -390,7 +390,7 @@ zh-CN:
   email_forwarding:
     title: 邮件转发中
     subtitle: 默认入站地址
-    ex: 从您的普通支持电子邮件地址(例如help@mycompany.com)转发到Chaskiq ，以便您可以回复代理面板的电子邮件
+    ex: 从您的普通支持电子邮件地址(例如help@mycompany.com)转发到Chaskiq，以便您可以回复客服面板的电子邮件
   identified_users:
     title: 已验证用户设置
     hint1: 要配置身份验证，您需要在您的服务器上为每个登录用户生成一个 HMAC，并将其提交给Chaskiq。
@@ -440,16 +440,16 @@ zh-CN:
       security: 安全
       messenger_settings: Messenger 设置
       appearance: 外观
-      contact_avatars: Contact Avatars
-      appearance_title: Appearance Settings
+      contact_avatars: 联系人头像
+      appearance_title: 外观设置
       privacy: 隐私
-      privacy_title: Privacy Settings
+      privacy_title: 隐私设置
       translations: 翻译
       availability: 可用性
       email_requirement: 请填写邮箱地址。
       inbound_settings: Inbound Settings
       messenger_style: Messenger 样式
-      user_data: User Data
+      user_data: 用户数据
       tags: 标签
       quick_replies: 快捷回复
       email_forwarding: 邮件转发中
@@ -560,23 +560,23 @@ zh-CN:
         hint: 这并不影响您发送的出站消息。
     team:
       title: 团队
-      invitations: Invitations
-      agents: Agents 代理人
-      invitation_success: Invitation sent!
-      invitatin_error: Invitation not sent!
+      invitations: 邀请
+      agents: 客服
+      invitation_success: 成功发送邀请！
+      invitatin_error: 邀请发送失败!
       action_button: 添加用户
-      title_content: 添加新代理
+      title_content: 添加新客服
       content_text: 发送激活邀请
-      hint: The new team member will be notified by it's email
+      hint: 新成员会收到邮件通知
       send_invitation: 发送邀请
       resend_invitation: 重新发送邀请
       add_new: 添加团队成员
       update_agent_title: 更新Agent代理信息
       updated_agent: 已成功上传信息
       destroyed_agent: Agent 已成功删除
-      destroy_agent_title: 删除Agent
+      destroy_agent_title: 删除客服
       destroy_agent: 删除
-      destroy_agent_warning: 'Are you sure you want to delete %{agent}?'
+      destroy_agent_warning: '确定删除客服 %{agent}?'
       update_agent: 更新
     webhooks:
       title: Webhooks
@@ -737,17 +737,17 @@ zh-CN:
   full_contact:
     inbox:
       name: 名称
-      first_name: First name
-      last_name: Last name
-      twitter: Twitter
-      facebook: Facebook
-      linkedin: Linkedin
-      organization: Organization
-      job_title: Job title
+      first_name: 名字
+      last_name: 姓氏
+      twitter: 推特
+      facebook: 脸书
+      linkedin: 领英
+      organization: 公司或组织
+      job_title: 工作头衔
   contact_fields:
     inbox:
-      first_name: First name
-      last_name: Last name
+      first_name: 名字
+      last_name: 姓氏
       email: Email
-      company: Company
+      company: 公司
       phone: 电话
